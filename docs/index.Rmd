@@ -158,7 +158,7 @@ class: middle, center
 knitr::include_graphics("img/olhos.jpg")
 ```
 
-## Tente fazer, sem consultar o texto novamente. Essa idéia geral servirá de guia para os passos restantes do trabalho de leitura.
+## Tente fazer esse apanhado, **sem consultar o texto novamente**. Essa idéia geral servirá de guia para os passos restantes do trabalho de leitura.
 
 ---
 class: inverse, center, middle
