@@ -3,20 +3,29 @@
   <head>
     <title>Como ler textos?</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Profs. Leonardo F. Nascimento e/ou Paulo Fonseca" />
-    <meta name="date" content="2021-01-21" />
-    <link rel="stylesheet" href="css\default.css" type="text/css" />
-    <link rel="stylesheet" href="css\mmp.css" type="text/css" />
-    <link rel="stylesheet" href="css\mmp-fonts.css" type="text/css" />
+    <meta name="author" content="Profs. Leonardo F. Nascimento" />
+    <meta name="date" content="2023-11-24" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="css/default.css" type="text/css" />
+    <link rel="stylesheet" href="css/mmp.css" type="text/css" />
+    <link rel="stylesheet" href="css/mmp-fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # <strong>Como ler textos?</strong>
-### Profs. Leonardo F. Nascimento e/ou Paulo Fonseca
-### CTIA067 - Estudos em contemporaneidade I
-### 2021-01-21
+]
+.author[
+### Profs. Leonardo F. Nascimento
+]
+.institute[
+### Estudos em contemporaneidade I
+]
+.date[
+### 2023-11-24
+]
 
 ---
 
@@ -127,7 +136,7 @@ class: middle, center
 
 &lt;img src="img/olhos.jpg" width="70%" style="display: block; margin: auto;" /&gt;
 
-## Tente fazer, sem consultar o texto novamente. Essa idéia geral servirá de guia para os passos restantes do trabalho de leitura.
+## Tente fazer esse apanhado, **sem consultar o texto novamente**. Essa idéia geral servirá de guia para os passos restantes do trabalho de leitura.
 
 ---
 class: inverse, center, middle
@@ -186,7 +195,7 @@ class: middle, center
 ---
 class: inverse, middle, center
 
-# "Em suma, deve-se ler um texto científico três vezes. A primeira leitura deve apreender a idéia básica, a segunda deve procurar as partes e sua concatenação e a terceira deve fixar os conceitos."
+# "Em suma, **deve-se ler um texto científico três vezes**. A primeira leitura deve apreender a idéia básica, a segunda deve procurar as partes e sua concatenação e a terceira deve fixar os conceitos."
 
 ---
 class: inverse, middle, center
@@ -242,6 +251,7 @@ class: middle, center
 Esta presentação será insuficiente sem a leitura integral do texto!
 
 ]
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="libs/remark-latest.min.js"></script>
@@ -290,6 +300,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
