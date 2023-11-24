@@ -292,7 +292,7 @@ knitr::include_graphics("https://media1.giphy.com/media/3oz8xIsloV7zOmt81G/giphy
 .pull-right[
 # **ATENÇÃO**:
 
-Esta presentação será insuficiente sem a leitura integral do texto!
+Esta apresentação será insuficiente sem a leitura integral do texto!
 
 ]
 
